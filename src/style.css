@@ -1,0 +1,21 @@
+/* Add custom font */
+@font-face {
+  font-family: "MesloLGS NF";
+  src: url("/src/assets/fonts/MesloLGS NF Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use custom font */
+body {
+  font-family: "MesloLGS NF", monospace;
+}
+
+/* Add custom background image */
+body {
+  background-image: url("/src/assets/images/wallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
